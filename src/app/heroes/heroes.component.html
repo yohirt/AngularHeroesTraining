@@ -1,0 +1,21 @@
+<h2>
+  heroes works! {{hero.name}}
+  <div>
+    <span>id: </span>{{hero.id}}</div>
+  <div>
+    <span>name: </span>{{hero.name | uppercase}}</div>
+  <div>
+    <input type="text" [(ngModel)]="hero.name" placeholder="name">
+  </div>
+</h2>
+
+<h2>My Elements</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+  <li class="selected">
+    <span class="badge">11</span> test
+  </li>
+
+</ul>

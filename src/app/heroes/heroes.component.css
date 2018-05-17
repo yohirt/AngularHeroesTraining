@@ -1,0 +1,65 @@
+
+.selected{
+    background-color: rgb(139, 165, 221);;
+    color: white;
+}
+.heroes{
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+}
+
+.heroes li{
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: rgb(108, 124, 145);
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+}
+
+.heroes li.selected:hover{
+    background-color: rgb(36, 193, 214) !important;
+    color: white;
+}
+
+.heroes li:hover{
+    color: rgb(126, 124, 207);
+    background-color: rgb(76, 159, 214);
+    left: .1em;
+}
+
+.heroes .text {
+  position: relative;
+  top: -3px;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: #green;
+  padding: 0.2em;
+  background-color: #fff;
+  line-height: 2em;
+  position: relative;
+  left: -10px;
+  top: -3px;
+  margin-right: 2em;
+  border-radius: 2px;
+
+  /* font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: rgb(240, 68, 182);
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px; */
+}
+
